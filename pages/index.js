@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Next.js App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -38,14 +38,19 @@ export default function Home() {
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+          <a href="http://localhost:3000/items" className={styles.card}>
+            <h3>Go to Items Page</h3>
+            <p>Press to see the page</p>
+          </a>
+
+          <a href="http://localhost:3000/home" className={styles.card}>
+            <h3>Go to Home Page</h3>
+            <p>Press to see the page</p>
+          </a>
+
+          <a href="http://localhost:3000/login" className={styles.card}>
+            <h3>Go to Login Page</h3>
+            <p>Press to see the page</p>
           </a>
         </div>
       </main>
