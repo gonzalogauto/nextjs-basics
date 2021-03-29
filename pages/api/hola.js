@@ -2,5 +2,5 @@
 
 export default (req, res) => {
   res.statusCode = 200
-  res.json({ mensaje: 'Hola!! :D' })
+  res.json({ mensaje: `Hola!! este es un mensaje via API con NEXT JS 🐼` })
 }
