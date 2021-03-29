@@ -11,47 +11,30 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Hi!
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          This is an example page
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
+          
           <a href="http://localhost:3000/items" className={styles.card}>
             <h3>Go to Items Page</h3>
             <p>Press to see the page</p>
           </a>
-
-          <a href="http://localhost:3000/home" className={styles.card}>
-            <h3>Go to Home Page</h3>
-            <p>Press to see the page</p>
-          </a>
-
+          
           <a href="http://localhost:3000/login" className={styles.card}>
             <h3>Go to Login Page</h3>
             <p>Press to see the page</p>
           </a>
+
+          <a href="/docs" className={styles.card}>
+            <h3>Documentation &rarr;</h3>
+            <p>Find in-depth information about Next.js features and API.</p>
+          </a>         
+          
         </div>
       </main>
 
